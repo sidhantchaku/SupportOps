@@ -1,0 +1,28 @@
+{
+  "name": "supportops-assistant",
+  "version": "1.0.0",
+  "description": "SupportOps Assistant — Full-Stack Support Engineering Platform",
+  "scripts": {
+    "prebuild": "cd frontend && npm install --include=dev",
+    "build": "npm run build:frontend",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Arpan Narula",
+  "license": "MIT"
+}
