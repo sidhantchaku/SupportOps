@@ -149,5 +149,5 @@ The seed script inserts sample tickets across common support categories (auth, A
 
 ## Author
 
-Arpan Narula  
-GitHub: https://github.com/ArpanNarula
+Sidhant Chaku  
+GitHub: https://github.com/sidhantchaku
